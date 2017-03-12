@@ -8,11 +8,18 @@ module.exports = SetupEndpoint({
         requests: [{
             method: ['POST'],
             response: {
-                success: {
-                    sessionId : 'long sessionId  string',
-                    userType  : 'basic',
-                    userId    : 'long userid string'
-                }
+                sessionId : 'long sessionId  string',
+                userId    : 'long userid string'
+            }
+        }]
+    },
+    {
+        params: '/wrong',
+        requests: [{
+            method: ['POST'],
+            response: {
+                sessionId : null,
+                userId    : null
             }
         }]
     }]
