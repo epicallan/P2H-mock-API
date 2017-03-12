@@ -7,7 +7,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/micromata/http-fake-backend/badge.svg)](https://snyk.io/test/github/micromata/http-fake-backend)
 [![Unicorn](https://img.shields.io/badge/unicorn-approved-ff69b4.svg?style=flat)](https://www.youtube.com/watch?v=qRC4Vk6kisY)
 
-# http-fake-backend for the [p2H service](https://github.com/epicallan/P2H-UI)
+# http-fake-backend for the [P2H service](https://github.com/epicallan/P2H-UI)
 
 > Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
 

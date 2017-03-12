@@ -1,4 +1,7 @@
 'use strict';
+
+const SetupEndpoint = require('./setup/setup.js');
+
 module.exports = SetupEndpoint({
     name: 'login',
     urls: [{
